@@ -31,6 +31,17 @@ All in one production Salesforce org for a US private lender, from first loan re
 
 <sub>Also shipped: Do-Not-Use screening sync · draw & holdback QuickBooks lines · rate lock and cash-out letter PDFs · record-sharing models · production data fixes across tens of thousands of records</sub>
 
+### Open-source showcase
+
+Clean-room versions of the patterns above, written from scratch with fictional data, so you can read the code and run the tests.
+
+| Repo | What it shows |
+| :-- | :-- |
+| [**apex-async-document-pipeline**](https://github.com/sonugoswami05/apex-async-document-pipeline) | Callout-enabled Batch Apex, AI classification, Queueable allocation with retry and backoff, LWC review screen |
+| [**apex-oauth-integration-kit**](https://github.com/sonugoswami05/apex-oauth-integration-kit) | OAuth 2.0 client credentials with cached tokens, 401/429 handling, Queueable polling, versioned JSON diff |
+| [**apex-ledger-engine**](https://github.com/sonugoswami05/apex-ledger-engine) | Balanced double-entry lines, actual/360 vs 30/360 day counts, idempotent regeneration, variance approvals |
+| [**apex-layered-ownership**](https://github.com/sonugoswami05/apex-layered-ownership) | Look-through ownership across LLC layers, cycle detection, 100% validation, immutable approved snapshots |
+
 ### How I build
 
 ```bash
