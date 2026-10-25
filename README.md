@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://sonugoswami.netlify.app/">
-    <img src="./assets/hero.svg" alt="Sonu Goswami, Senior Salesforce Developer. I build the complex side of Salesforce." width="100%">
+    <img src="./hero.svg" alt="Sonu Goswami, Senior Salesforce Developer. I build the complex side of Salesforce." width="100%">
   </a>
 </p>
 
